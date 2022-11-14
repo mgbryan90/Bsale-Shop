@@ -14,7 +14,6 @@ export const getFilterProductsByCategory = async (idCategory = "") => {
   return data;
 };
 
-//
 export const getFilterProductsByQuery = async (query = "") => {
   const response = await fetch(
     `https://shop-api-rest.herokuapp.com/api/product`,

@@ -2,7 +2,7 @@
 
 ```terminal
 Una E-commerce construida con Vanilla Javascript, que consume productos de una Api-Rest mediante Fetch, en este E-commerce
-usted podra visualizar todos los productos, tanto individuales como por categoria, podrá realizar filtros de busqueda por palabra.
+usted podra visualizar muchos productos, tanto individuales como por categoria, podrá realizar filtros de busqueda por palabra.
 Podrá visualizar el API en https://github.com/mgbryan90/Shop-Api.
 ```
 
@@ -14,21 +14,32 @@ Podrá visualizar el API en https://github.com/mgbryan90/Shop-Api.
  - JavaScript
 ```
 
-## Run Locally
+## Caracteristicas
 
-### Clone the project
-
-```terminal
-  git clone git@github.com:mgbryan90/Bsale-Shop.git
+```termin
+ - Haciendo click en el logotipo regresas a la pagina principal donde se muestran todos los productos.
+ - Muestra todos los productos que contiene esa categoria(listado en la barra de navegación superior) haciendo click en cada uno de ellos.
+ - Busca productos (sin distinción entre mayúsculas y minúsculas) en la casilla de filtrado.
+ - Luego de buscar un producto, puedes precionar la tecla "Escape" y borra todo el filtro y te devuelve la lista completa de productos.
+ - Aplicacion adaptada a cualquier dispositivo móvil.
 ```
 
-Go to the project directory
+## Para usarlo localmente
+
+### Clonar el proyecto
+
+```terminal
+git clone git@github.com:mgbryan90/Bsale-Shop.git
+```
+
+Ir al directorio del proyecto
 
 ```terminal
 cd Bsale-Shop
 ```
 
-Start the server
+Inicie el servidor
 
-Click to Go Live from the status bar to turn the server on/off. or
-Open the index.html file and right-click on the editor and click on Open with Live Server
+```termin
+Haga clic en Go Live desde la barra de estado para encender/apagar el servidor o abra el archivo index.html y haga clic derecho en el editor y haga clic en Abrir con Live Server.
+```
