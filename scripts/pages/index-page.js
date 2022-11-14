@@ -69,6 +69,15 @@ async function eventfilterProductsByQuery() {
     const queryInput = productFinded.value;
     const products = await getFilterProductsByQuery(queryInput);
     showProducts(products);
+    // Condicional para cuando en el filtrado no se encuentre un producto muestra "Producto no encontrado..."
+    if (contenedorProducts.innerHTML === "") {
+      contenedorProducts.innerHTML += `
+      <div class="productNofinded">
+        <p>Producto no Encontrado...</p>
+        <img src="./images/productoNoEncontrado.png" alt="noEncontrado" class = "noEncontrado"/>
+      </div>
+      `;
+    }
   };
 
   // Evento para el button, cuando se precione se haga el filtro
