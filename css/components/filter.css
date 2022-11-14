@@ -1,0 +1,58 @@
+.container-filter {
+  margin: 40px 0 20px 40px;
+}
+
+.container-filter p {
+  font-family: var(--font-primary);
+  font-size: 22px;
+  margin: 16px;
+}
+
+.container-filter input {
+  margin: 16px;
+  border: 5px solid rgb(241, 234, 234);
+  border-radius: 8px;
+  padding: 8px;
+  width: 500px;
+}
+
+.container-filter input:focus {
+  border: none;
+}
+
+.productNofinded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: 70px;
+}
+
+.productNofinded p {
+  font-family: var(--font-primary);
+  font-size: 20px;
+}
+
+.noEncontrado {
+  max-width: 600px;
+  height: 400px;
+  margin-top: 70px;
+}
+
+.button {
+  padding: 10px 50px;
+  border-radius: 50px;
+  background: #e6d3ac;
+  color: black;
+  border: none;
+  font: size, 20px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 740px) {
+  .button {
+    margin-left: 205px;
+  }
+}
