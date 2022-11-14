@@ -3,7 +3,7 @@
 ```terminal
 Una E-commerce construida con Vanilla Javascript, que consume productos de una Api-Rest mediante Fetch, en este E-commerce
 usted podra visualizar muchos productos, tanto individuales como por categoria, podrá realizar filtros de busqueda por palabra.
-Podrá visualizar el API en https://github.com/mgbryan90/Shop-Api.
+Podrá visualizar el API en [https://github.com/mgbryan90/Shop-Api](https://github.com/mgbryan90/Shop-Api).
 ```
 
 ## Construido con
